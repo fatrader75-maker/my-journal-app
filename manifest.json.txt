@@ -6,8 +6,8 @@
   "orientation": "any",
   "scope": "/",
   "short_name": "ژورنال من",
-  "start_url": "/",
-  "theme_color": "#6C63FF",
+"start_url": "./index.html"
+"theme_color": "#6C63FF",
   "icons": [
     {
       "src": "https://fatrader75-maker.github.io/my-journal-app/icon-192.png",
