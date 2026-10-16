@@ -1,39 +1,29 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
-  "display": "standalone",
+  "id": "journal-app",
   "name": "ژورنال من",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "ژورنال من",
-"start_url": "./index.html"
-"theme_color": "#6C63FF",
+  "short_name": "ژورنال",
+  "description": "دفتر خاطرات، برنامه‌ریزی روزانه، تراکر عادت و مدیریت شیفت‌های کاری",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#f5f5f7",
+  "theme_color": "#6C63FF",
+  "dir": "rtl",
+  "lang": "fa-IR",
+  "categories": ["productivity", "lifestyle"],
+  "prefer_related_applications": false,
   "icons": [
     {
-      "src": "https://fatrader75-maker.github.io/my-journal-app/icon-192.png",
-      "type": "image/png",
+      "src": "icon-192.png",
       "sizes": "192x192",
-      "isSquare": true,
-      "isPng": true,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 192,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": true
+      "type": "image/png"
     },
     {
-      "src": "https://fatrader75-maker.github.io/my-journal-app/icon-512.png",
-      "type": "image/png",
+      "src": "icon-512.png",
       "sizes": "512x512",
-      "isSquare": true,
-      "isPng": true,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 512,
-      "is512x512": true,
-      "is256x256": false,
-      "is192x192": false
+      "type": "image/png"
     }
   ]
 }
