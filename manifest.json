@@ -1,0 +1,37 @@
+{
+  "id": "./",
+  "name": "FA — مدیریت مالی و ژورنال",
+  "short_name": "FA",
+  "description": "ژورنال شخصی، مدیریت اقساط و وام، خرج‌یار، پورتفولیو و گزارش مالی در یک اپلیکیشن",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#f5f5f7",
+  "theme_color": "#6C63FF",
+  "categories": ["finance", "productivity", "lifestyle"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
